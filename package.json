@@ -1,0 +1,23 @@
+{
+  "name": "formvalidationexample",
+  "version": "1.0.0",
+  "description": "Basic client side form validation example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeeseGod/formValidationExample.git"
+  },
+  "author": "MeeseO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeeseGod/formValidationExample/issues"
+  },
+  "homepage": "https://github.com/MeeseGod/formValidationExample#readme",
+  "devDependencies": {
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
