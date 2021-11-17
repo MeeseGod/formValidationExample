@@ -1,0 +1,13 @@
+#mainForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#submitForm{
+    width: 75px;
+}
+
+.formInput{
+    margin-bottom: 8px;
+}

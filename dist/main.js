@@ -1,1 +1,1 @@
-console.log("index");
+(()=>{const e=document.getElementById("emailInput");document.getElementById("countryInput"),document.getElementById("zipInput"),document.getElementById("passwordInput"),document.getElementById("passwordValidation"),console.log(e)})();

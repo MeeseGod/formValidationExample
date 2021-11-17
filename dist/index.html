@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>Form Validation</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="style.css">
 <style>
 </style>
 <body>
+    <div id="formContainer">
+    <form id="mainForm">
+        <label for="emailInput" class="formLabel">Email:</label>
+        <input id="emailInput" type="email" class="formInput" required>
+        <label for="countryInput" class="formLabel">Country:</label>
+        <input id="countryInput" type="text" class="formInput" required maxlength="50" pattern="[A-Za-z]+">
+        <label for="zipInput" class="formLabel">Zip Code:</label>
+        <input id="zipInput" type="text" class="formInput" required maxlength="6">
+        <label for="passwordInput" class="formLabel">Password:</label>
+        <input id="passwordInput" type="text" class="formInput" required minlength="8" maxlength="24">
+        <label for="passwordValidation" class="formLabel">Confirm Password:</label>
+        <input id="passwordValidation" type="text" class="formInput" required minlength="8" maxlength="24">
+        <input id="submitForm" type="submit">
 
+        <button id="testingButton">Bingus</button>
+    </form>
+    </div>
 </body>
 <script src="main.js"></script>
 </html>
+
+
+<!--Country
+        50 Character Limit - Done
+
+    Zip
+        6 characters
+        Letter number rotating
+
+    Password
+        24 Character Limit
+        Validation input must match password input -->
