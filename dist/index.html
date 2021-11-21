@@ -12,9 +12,9 @@
         <label for="emailInput" class="formLabel">Email:</label>
         <input id="emailInput" type="email" class="formInput" required>
         <label for="countryInput" class="formLabel">Country:</label>
-        <input id="countryInput" type="text" class="formInput" required maxlength="50" pattern="[A-Za-z]+">
+        <input id="countryInput" type="text" class="formInput" required minlength="4" maxlength="50" pattern="[A-Za-z]+">
         <label for="zipInput" class="formLabel">Zip Code:</label>
-        <input id="zipInput" type="text" class="formInput" required maxlength="6">
+        <input id="zipInput" type="text" class="formInput" required minlength="6" maxlength="6">
         <label for="passwordInput" class="formLabel">Password:</label>
         <input id="passwordInput" type="text" class="formInput" required minlength="8" maxlength="24">
         <label for="passwordValidation" class="formLabel">Confirm Password:</label>
